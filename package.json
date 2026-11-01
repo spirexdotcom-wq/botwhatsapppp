@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-bot-vercel",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp Baileys di Vercel",
+  "main": "api/bot.js",
+  "scripts": {
+    "start": "node api/bot.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "pino": "^8.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
